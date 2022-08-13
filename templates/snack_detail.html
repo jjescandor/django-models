@@ -1,0 +1,21 @@
+{%extends 'base.html'%}
+
+{%block content%}
+<section>
+    <h4>Snack name</h4>
+    <h5>{{detail.name}}</h5>
+    <h5>description</h5>
+    <h5>{{detail.description}}</h5>
+    <div class="detail-footer">
+        <div>
+            <h4>Purchased by:</h4>
+            <h5>{{detail.purchaser}}</h5>
+        </div>
+        <div>
+            <h4>Created:</h4>
+            <h5>{{detail.created}}</h5>
+        </div>
+
+    </div>
+</section>
+{%endblock content%}
